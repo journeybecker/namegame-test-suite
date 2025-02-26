@@ -26,7 +26,7 @@ describe("Home", () => {
             // `.eq(n)` will yield the `nth` yielded element, if more than one is found.
             .eq(i)
             .click()
-            // Cypress occasionally moves too quick and checks before the text value has updated in the UI
+            // Cypress occasionally moves too quickly and checks before the text value has updated in the UI
             .wait(1000);
           cy.get(".attempt")
             // `cy.should('have.text', foo)` compares the text of the element yielded in `cy.get()` to the expected, in this example `foo`
