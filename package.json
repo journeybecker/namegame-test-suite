@@ -17,6 +17,7 @@
     "testcafe": "^3.7.2"
   },
   "dependencies": {
+    "@cypress/xvfb": "^1.2.4",
     "xvfb": "^0.4.0"
   }
 }
