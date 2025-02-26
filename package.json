@@ -13,7 +13,7 @@
     "testcafe-edge": "testcafe edge testcafe/tests"
   },
   "devDependencies": {
-    "cypress": "^8.4.1",
+    "cypress": "^8.7.0",
     "testcafe": "^1.1.2"
   }
 }
